@@ -9391,7 +9391,7 @@ body {
 }
 #about {
   text-align: center;
-  padding: 6rem 0 6rem 0;
+  
   background-color: #e3d18a;
 }
 
@@ -9470,7 +9470,7 @@ a {
     margiun: 20px;
   }
   #about{
-    margin: 20px;
+    padding: 20px;
   }
   .card1 {
     display: block;
@@ -9483,4 +9483,8 @@ a {
 
 /* Desktop Screen */
 @media (min-width: 1024px) {
+  #about{
+    padding: 6rem 0 6rem 0;
+  }
+  
 }
