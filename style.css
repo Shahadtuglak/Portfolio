@@ -9469,6 +9469,9 @@ a {
     padding: 20px;
     margiun: 20px;
   }
+  #about{
+    margin: 20px;
+  }
   .card1 {
     display: block;
   }
