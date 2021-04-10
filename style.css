@@ -9467,6 +9467,7 @@ a {
 @media (max-width: 768px) {
   #contact {
     padding: 20px;
+    margiun: 20px;
   }
   .card1 {
     display: block;
