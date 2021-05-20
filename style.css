@@ -9382,16 +9382,14 @@ body {
   color: white;
   padding-top: 14rem;
   padding-left: 5rem;
-  background-image: url(pexels-photo-450055.jpeg);
+  background: url("pexels-photo-450055.jpeg") no-repeat center center fixed;
   height: 100vh;
   width: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
+
   background-size: cover;
 }
 #about {
   text-align: center;
-  
   background-color: #e3d18a;
 }
 
@@ -9401,7 +9399,11 @@ h1 {
 
 #contact {
   padding: 20px;
-  background-color: #e3d18a;
+  /* background-color: #e3d18a; */
+  background: url("pexels-photo-450055.jpeg") no-repeat center center fixed;
+
+  background-position: center center;
+  color: white;
   text-align: center;
   margin: 50px 0 50px 0;
 }
@@ -9469,7 +9471,7 @@ a {
     padding: 20px;
     margiun: 20px;
   }
-  #about{
+  #about {
     padding: 20px;
   }
   .card1 {
@@ -9483,8 +9485,7 @@ a {
 
 /* Desktop Screen */
 @media (min-width: 1024px) {
-  #about{
+  #about {
     padding: 6rem 0 6rem 0;
   }
-  
 }
